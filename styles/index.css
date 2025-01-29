@@ -11845,7 +11845,30 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: #00ffff;
+  background-color: #ff0c00;
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: #ff0c00;
+  }
+}
+
+.container {
+  border: 2px solid black;
+  background: darkRed;
+  box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
+}
+.container .mycol {
+  background-color: yellow;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .container .mycol {
+    background-color: orange;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
