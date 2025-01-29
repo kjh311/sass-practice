@@ -1,3 +1,10 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// VARIABLES
+$red: #ff0c00;
+$turquios: #00ffff;
+
+
 body{
-    background-color: red;
+    background-color: $turquios;
 }
